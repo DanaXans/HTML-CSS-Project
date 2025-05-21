@@ -1,0 +1,124 @@
+* {
+    margin: 20px;
+}
+body {
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    border: 3px solid darkgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.pepper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.cheese{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.corn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.mushroom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.garlic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.beef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.fish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.eggs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.coriander{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+p{
+    font-size: 20px;
+}
+
+.pepper img{
+    width: 40%;
+}
+.apple img{
+    width: 50%;
+}
+.cheese img{
+    width: 50%;
+}
+.corn img{
+    width: 70%;
+}
+.mushroom img{
+    width: 50%;
+}
+.garlic img{
+    width: 50%;
+}
+.beef img{
+    width: 60%;
+}
+.fish img{
+    width: 70%;
+}
+.eggs img{
+    width: 50%;
+}
+.coriander img{
+    width: 60%;
+}
+hr{
+    margin: 10px 60px;
+    height: 3px;
+}
