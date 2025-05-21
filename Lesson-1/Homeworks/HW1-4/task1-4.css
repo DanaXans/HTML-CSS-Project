@@ -1,0 +1,22 @@
+h4{
+    width: 30%;
+    height:20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+p {
+    background-color: lightgray;
+    width: 75px;
+    height: 55px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 7px;
+    text-align: center;
+}
+span{
+    color: darkred;
+}
