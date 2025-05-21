@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+    height: 100vh;
+
+}
+.block{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.block:hover{
+    border-radius: 50%;
+    background-color: dimgrey;
+    transition: 2s;
+}
+.first{
+    background-color: darkred;
+
+}
+.second{
+    background-color: darkred;
+
+}
+.third{
+    background-color: darkred;
+
+}
+.fourth{
+    background-color: darkred;
+
+}
+.fifth{
+    background-color: darkred;
+
+}
+.sixth{
+    background-color: darkred;
+
+}
