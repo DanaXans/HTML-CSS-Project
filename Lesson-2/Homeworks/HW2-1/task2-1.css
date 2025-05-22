@@ -83,7 +83,10 @@ body {
     align-items: center;
     flex-direction: column-reverse;
 }
-
+.head{
+    font-size: 40px;
+    text-align: center;
+}
 p{
     font-size: 20px;
 }
