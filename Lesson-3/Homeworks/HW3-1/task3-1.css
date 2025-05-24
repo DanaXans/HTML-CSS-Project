@@ -6,51 +6,33 @@
     text-decoration: none;
     list-style-type: none;
 }
-
-header div {
+body{
+    margin: 2%;
+}
+header{
     height: 70vh;
     background-color: #168ee7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
 }
-header div h1 {
-    font-size: 80px;
-    color: white;
-    font-family: "Rubik", sans-serif;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 0;
+    }
+section {
+    height: 50vh;
+    width: 32%;
+    background-color: #104973;
 }
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    background-color: #0b4977;
-    height: 60vh;
-    width: 100%;
-    margin: 20px;
-}
-div{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: row;
-}
-div section p{
-    font-family: "Rubik", sans-serif;
-    font-size: 40px;
-    color: white;
-}
-footer h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer{
+    height: 90vh;
     background-color: #168ee7;
-    margin: 20px;
-    height: 100vh;
 }
-h1{
-    font-size: 80px;
+header, section, footer{
     color: white;
-    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
