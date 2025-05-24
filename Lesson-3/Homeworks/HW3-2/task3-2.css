@@ -2,31 +2,26 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
-}
-.div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#top-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: #ffb5d4;
+
+section{
     height: 50vh;
-}
-#middle-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #606060;
-    height: 50vh;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
 }
-.h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   padding: 20px;
+.top-section {
+background-color: lightpink;
 }
+
+    .bottom-section{
+background-color: black;
+        color: white;
+    }
+section p{
+    width: 80%;
+
+   }
