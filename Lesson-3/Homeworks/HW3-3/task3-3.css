@@ -14,6 +14,7 @@ section{
     gap: 30px;
     height: 100vh;
     padding: 50px;
+    font-family: Arial, sans-serif;
 }
 #top-section{
     display: flex;
@@ -32,9 +33,6 @@ p{
 }
 h1{
     font-size: 40px;
-}
-h1, p{
-    font-family: Arial, sans-serif;
 }
 nav a{
     color: black;
