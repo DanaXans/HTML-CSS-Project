@@ -318,8 +318,6 @@ div li{
 }
 
 div button{
-    width: 285px;
-    height: 60px;
     border-radius: 10px;
     border: 1px solid #EAE9F2;
     background: #FFF;
@@ -328,5 +326,18 @@ div button{
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.531px;
-    margin-left: 20px;
+    width: 285px;
+    height: 60px;
 }
+.footer-wrap{
+    transition: 2s;
+    padding: 5px 0;
+}
+.footer-wrap:hover{
+    width: 360px;
+    height: 471px;
+    border-radius: 10px;
+    background: #FF7143;
+    transition: 2s;
+}
+
