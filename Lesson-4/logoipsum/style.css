@@ -91,3 +91,9 @@ header nav a{
     letter-spacing: -0.531px;
     border: none;
 }
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px  0 160px 0;
+}
