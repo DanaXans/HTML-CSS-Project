@@ -268,7 +268,7 @@ div a{
     background: #F8F8F8;
     flex-wrap: wrap;
 }
-div .top{
+.footer div{
     color: #696871;
     text-align: center;
     font-family: "DM Sans", sans-serif;
@@ -278,6 +278,7 @@ div .top{
     line-height: 28px; /* 155.556% */
     letter-spacing: -0.563px;
     padding: 34px 0 22px 0;
+    margin-bottom: 130px;
 }
 .footer div h2{
     color: #1D293F;
@@ -327,4 +328,5 @@ div button{
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.531px;
+    margin-left: 20px;
 }
