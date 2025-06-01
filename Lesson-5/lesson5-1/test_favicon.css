@@ -1,0 +1,22 @@
+.pink-box {
+    height: 200px;
+    width: 200px;
+    background-color: #ff95a5;
+    margin: 100px auto 0 auto;
+    animation: box 5s linear infinite alternate;
+}
+@keyframes box{
+    from{
+        transform: skew(40deg);
+    }
+    40%{
+        border-radius: 20%;
+    }
+    50%{
+        transform: skew(0deg);
+    }
+    to{
+        transform: skew(0deg);
+        background-color: #ffea44;
+    }
+}
