@@ -334,8 +334,7 @@ div button{
     padding: 5px 0;
 }
 .footer-wrap:hover{
-    width: 360px;
-    height: 471px;
+    transform: scale(1.1);
     border-radius: 10px;
     background: #FF7143;
     transition: 2s;
