@@ -12,6 +12,7 @@ body{
 .w-1440{
     width: 1440px;
     margin: 0 auto;
+    background-color: #1E1E1E;
 }
 nav{
     padding-top: 36px;
@@ -24,6 +25,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     gap: 59px;
+    margin-bottom: 96px;
 }
 ul li a{
     color: #E9E3DC;
@@ -43,4 +45,25 @@ ul li a{
     height: 60px;
     background: #B3A0CD;
     color: #1E1E1E;
+}
+/*--------------------------------------------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+main h1{
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107.088px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    width: 1255px;
+    padding-bottom: 33px;
 }
