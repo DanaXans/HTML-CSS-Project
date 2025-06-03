@@ -15,13 +15,13 @@ body{
 }
 @keyframes preloader {
     from {
-        transform: translate(-40px, -40px);
+        transform: rotate(10deg) translate(-70px, 40px);
     }
     50% {
         border-radius: 20px;
     }
     to {
-        transform: translate(40px, 40px);
+        transform: rotate(80deg) translate(40px, -70px);
         background-color: #faf15f;
     }
 }
