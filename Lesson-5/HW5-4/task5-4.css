@@ -88,7 +88,6 @@ main h1{
     color: #1E1E1E;
     font-family: "Bowlby One", sans-serif;
     font-size: 70px;
-    font-style: normal;
     font-weight: 400;
     line-height: 88.896%; /* 62.228px */
     letter-spacing: -1.4px;
@@ -99,7 +98,6 @@ main h1{
     height: 75px;color: #1E1E1E;
     font-family: "Inter", sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 139.896%; /* 33.575px */
     letter-spacing: -0.48px;
@@ -115,7 +113,6 @@ main h1{
     text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
@@ -156,7 +153,6 @@ footer h3{
     text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 70px;
-    font-style: normal;
     font-weight: 400;
     line-height: 101.896%; /* 71.328px */
     text-transform: uppercase;
@@ -170,7 +166,6 @@ footer button{
     text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
