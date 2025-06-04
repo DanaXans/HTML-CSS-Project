@@ -1,7 +1,7 @@
 body{
     background: #98b0ef;
 }
-.wrapper-first{
+.wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +30,11 @@ body{
     border-radius: 50%;
     animation: third_block 2s ease-in-out infinite alternate;
 }
-/*-----------------*/
-    @keyframes second_block{
+@keyframes second_block{
     from{
         transform: translate(20px, -20px);
         border-radius: 50%;
-    }
+        }
         50%{
             border-radius: 30%;
             background: #161954;
@@ -45,7 +44,7 @@ body{
             border-radius: 50%;
         }
 }
-    @keyframes first_block{
+@keyframes first_block{
          from{
              transform: translate(20px, -30px);
              background: #1c235e;
@@ -60,8 +59,8 @@ body{
             background: #1c235e;
             border-radius: 30%;
          }
-    }
-    @keyframes third_block{
+}
+@keyframes third_block{
         from{
             transform: translate(20px, -30px);
             background: #1c235e;
@@ -76,4 +75,4 @@ body{
             background: #1c235e;
             border-radius: 30%;
         }
-    }
+}

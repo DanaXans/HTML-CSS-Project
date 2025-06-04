@@ -20,7 +20,6 @@ body{
 .left_circle{
     animation: left_circle 1s ease-out infinite alternate;
 }
-/*-----------------------------------*/
 @keyframes left_circle{
     0%{
         transform: translateY(10px);
@@ -42,6 +41,9 @@ body{
         background-color: #c8ffdc;
     }
 }
+.right_circle{
+    animation: right_circle 1s ease-out infinite alternate;
+}
 @keyframes right_circle{
     0%{
         transform: translateY(10px);
@@ -50,7 +52,4 @@ body{
         transform: translateY(-20px);
         background-color: #c8ffdc;
     }
-}
-.right_circle{
-animation: right_circle 1s ease-out infinite alternate;
 }
