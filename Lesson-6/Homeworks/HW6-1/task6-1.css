@@ -8,7 +8,7 @@ div.list-3>ul>li:nth-child(2n+4)::after {
     content: '!';
 }
 div.list-4>ul>li:last-of-type{
-    color: purple;
+    color: #8d00ff;
 }
 div.list-5>ul>li::first-letter{
     font-size: 30px;
