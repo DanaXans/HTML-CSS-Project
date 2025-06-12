@@ -13,7 +13,7 @@ body{
 }
 .wrapper{
     width: 70vw;
-    margin: 30px;
+    margin: 30px 0 30px 0;
     border: solid 3px rgba(164, 164, 164, 0.45);
 }
 img{
@@ -25,7 +25,6 @@ img{
     align-items: center;
     justify-content: center;
 }
-/*-----------------------------------------*/
 form{
     display: flex;
     justify-content: center;
@@ -47,7 +46,6 @@ form{
 #password[type=password]:focus{
     outline: none;
 }
-/*----------------------------------------------------------*/
 #enter{
     color: #ffffff;
     margin-top: 20px;
@@ -59,14 +57,12 @@ form{
     font-size: 30px;
     font-weight: bold;
 }
-/*----------------------------------------------------*/
 form>h2{
     font-size: 30px;
     font-weight: bold;
     color: #989898;
     padding: 30px 0;
 }
-/*-------------------------------------------*/
 #facebook{
     display: flex;
     align-items:  center;
@@ -76,24 +72,22 @@ form>h2{
 #facebook>img{
     width: 3vw;
     margin-right: 15px;
-
 }
-#facebook>h2{
+#facebook>a{
     font-size: 30px;
     font-weight: bold;
     color: #334580;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
-form>p{
+form>a{
     font-size: 25px;
     color: #334580;
     margin: 30px 0 70px 0;
 }
-/*-----------------------------------------------------------*/
 .footer_wrapper{
     padding: 70px 50px;
     width: 70vw;
-    margin:  15px 0;
+    margin: 0 0 30px 0;
     border: solid 3px rgba(164, 164, 164, 0.45);
 }
 footer{
