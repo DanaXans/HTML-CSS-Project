@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 132px;
+}
+.head_963{
+    margin: 0 auto;
+    width: 963px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_963 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.head_963 ul a{
+    width: 45px;
+    height: 20px;
+    color: #000;
+    font-family: Robot,  sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.head_963 .nike_wrapp{
+   margin:  0 60px;
+}
