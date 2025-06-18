@@ -8,6 +8,7 @@
 header{
     width: 100%;
     height: 132px;
+    background: white;
 }
 .head_963{
     margin: 0 auto;
@@ -35,4 +36,100 @@ header{
 }
 .head_963 .nike_wrapp{
    margin:  0 60px;
+}
+/*-----------------------------------------------------*/
+.nike_toys{
+    width: 100%;
+    height: 892px;
+    background: #FBF6F3;
+}
+.nike_963{
+    margin: 0 auto;
+    width: 963px;
+    height: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.sneakers{
+    width: 581.019px;
+    height: 652.972px;
+    margin-right: 50px;
+}
+.text_w{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.text_w>div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+.text_w h2{
+    color: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_w .price{
+    color: #AD0306;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 23px 0 52px;
+}
+.text_w ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    margin-bottom: 62px;
+}
+div ul li:nth-child(4){
+    color: #B93536;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #A90102;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+div ul li:nth-child(3n+2){
+    color: #A19FA0;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #A19FA0;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+div ul li{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_w .bottom_p{
+    color: #000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
