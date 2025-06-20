@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .item-1{
+            background: #3F50E7;
+            width: 200px;
+            height: 200px;
+        }
+        .item-2{
+            background: #1a8b8f;
+            width: 200px;
+            height: 200px;
+        }
+        .item-3{
+            background: #1c235e;
+            width: 200px;
+            height: 200px;
+        }
+        @media screen and (max-width: 480px){
+            .item-1{
+                background: #1e2672;
+            }
+        }
+        @media screen and (min-width: 481px) and (max-width: 768px){
+            .item-2{
+                background: #0d2b2c;
+            }
+            .item-3{
+                background: #4857c5;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="item-1"></div>
+<div class="item-2"></div>
+<div class="item-3"></div>
+</body>
+</html>
