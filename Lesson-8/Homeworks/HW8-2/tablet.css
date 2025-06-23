@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    main{
+        display: flex;
+        justify-content: flex-start;
+        align-items:  center;
+        width: 769px;
+        margin: 0 auto;
+        padding: 48px 24px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    section{
+        padding-top: 16px;
+        display: flex;
+        justify-content: flex-start;
+        align-items:  center;
+        width: 769px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    main, section div{
+        width: 348px;
+    }
+}
