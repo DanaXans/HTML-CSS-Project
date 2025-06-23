@@ -1,7 +1,13 @@
 @media screen and (min-width: 375px) and (max-width: 769px) {
-    section{
+    main{
         width: 343px;
         padding:  32px 0;
         gap: 40px;
     }
+    section{
+        width: 343px;
+        padding: 0;
+        gap: 40px;
+    }
+
 }
