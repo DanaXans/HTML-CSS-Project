@@ -14,12 +14,11 @@
         display: flex;
         justify-content: flex-start;
         align-items:  center;
-        width: 769px;
         margin: 0 auto;
         flex-wrap: wrap;
         gap: 24px;
     }
-    main, section div{
+    main div{
         width: 348px;
     }
 }
