@@ -1,6 +1,17 @@
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-    main{
+    .cards{
+        width: 769px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+        padding:  32px 24px;
+    }
+    .wrapper_cards{
         width: 720px;
+        display: flex;
+        justify-content: center;
     }
     div {
         width: 218px;

@@ -1,5 +1,5 @@
 @media screen and (min-width: 375px) and (max-width: 769px){
-    main{
+    .items{
         display: flex;
         justify-content: center;
         align-items:  flex-start;
@@ -9,7 +9,7 @@
         padding: 32px 16px;
         gap: 32px;
     }
-    section{
+    .w-items{
         display: flex;
         justify-content: center;
         align-items:  flex-start;
@@ -22,13 +22,14 @@
     div p{
         width: 343px;
     }
-    main div{
+    .items div{
         width: 343px;
+        margin-bottom: 0;
     }
-    main div img{
+    .items div img{
         width: 128px;
     }
-    main div h3{
+    .items div h3{
         padding: 16px 0 8px 0 ;
     }
 }
