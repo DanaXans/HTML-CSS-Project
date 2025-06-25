@@ -42,12 +42,12 @@ header .w_1153 h2{
     font-weight: 700;
     opacity: 0.6;
 }
-.one_posotion{
+main{
     width: 100%;
     height: 692px;
     background: #24204A;
 }
-.one_posotion .sec_1153{
+main .sec_1153{
    padding: 180px 0 101px 0;
     margin: 0 auto;
     width: 1153px;
@@ -56,7 +56,7 @@ header .w_1153 h2{
     align-items: center;
     justify-content: space-between;
 }
-.one_posotion .sec_1153 #top__button{
+main .sec_1153 #top__button{
     width: 145px;
     height: 41px;
     border-radius: 8px;
@@ -68,7 +68,7 @@ header .w_1153 h2{
     line-height: 130%; /* 20.8px */
     letter-spacing: 0.8px;
 }
-.one_posotion .sec_1153 h1{
+main .sec_1153 h1{
     width: 261px;
     color: #FFF;
     font-size: 36px;
@@ -76,7 +76,7 @@ header .w_1153 h2{
     line-height: normal;
     letter-spacing: 1.8px;
 }
-.one_posotion .sec_1153 p{
+main .sec_1153 p{
     width: 570px;
     height: 85px;
     color: #8E88C1;
@@ -85,7 +85,7 @@ header .w_1153 h2{
     line-height: 130%; /* 20.8px */
     letter-spacing: 0.8px;
 }
-.one_posotion .sec_1153 #bottom__button{
+main .sec_1153 #bottom__button{
     width: 200px;
     height: 56px;
     border-radius: 8px;
