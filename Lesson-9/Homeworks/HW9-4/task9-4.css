@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1.3fr 2fr 1fr 1fr 2fr 1.3fr;
+    grid-template-areas:
+    "header header"
+    "content-1 spam-1"
+    "content-2 spam-1"
+    "content-2 spam-2"
+    "content-3 spam-2"
+    "footer footer";
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  header;
+    background: #8D8484;
+}
+.content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  content-1;
+    background: #776969;
+}
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  content-2;
+    background: #643030;
+}
+.content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  content-3;
+    background: #441818;
+}
+.spam-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  spam-1;
+    background: #937575;
+}
+.spam-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area:  spam-2;
+    background: #644C4C;
+}
+footer {
+    grid-area:  footer;
+    background: #BDBDBD;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.grid p{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer p:nth-child(1){
+    color: #000;
+}
+header p:nth-child(1){
+    color: #000;
+}
